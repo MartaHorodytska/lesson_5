@@ -104,10 +104,6 @@ div.istorija{
     font-family: 'Rubik-Bold';
     font-style: italic;
 }
-
-a{
-    display: block;
-}
 [href]{
     color: #000000;
 }
