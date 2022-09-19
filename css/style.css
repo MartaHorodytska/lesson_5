@@ -1,0 +1,113 @@
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Rubik-Bold";
+	src: url("../fonts/Rubik/Rubik-Bold.woff2") format("woff2"), url("../fonts/Rubik/Rubik-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url("../fonts/Rubik/Rubik-Medium.woff2") format("woff2"), url("../fonts/Rubik/Rubik-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+body{
+    font-family: 'Roboto-Regular';
+    line-height: 1.2;
+}
+.header,
+footer{
+    background-color: #a52a2a;
+    height: 200px;
+    padding: 90px;
+    margin: 5px;
+}
+h1,
+.footer{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto-Bold';
+}
+[class*="__Vyshywanka"] {
+    color: #0000ff;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+.text-1.Vyhotovlenja{
+    color: #ffd900;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: right;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+div.istorija{
+    background-color: #d8c3c3;
+}
+.pro-vyshywku{
+    text-shadow: 2px 2px 5px #0000ff;
+    text-align: justify;
+    text-decoration: line-through;
+}
+.istorija div{
+    text-shadow: 2px 2px 5px #ffd900;
+    text-align: right;
+    text-decoration: overline;
+}
+.istorija .kyjiv{
+    font-family: 'Rubik-Medium';
+    text-transform: capitalize;
+    color: #0000ff;
+}
+
+.zakarpatja{
+    color: #ffd900;
+    text-transform: uppercase;
+}
+.facty .fact-1{
+    text-indent: 20px;
+    letter-spacing: 5px;
+    color: #0000ff;
+}
+.facty.fact-2{
+    color: #ffd900;
+    word-spacing: 20px;
+}
+[class*="__fact-3"]{
+    color: #0000ff;
+    font-family: 'Rubik-Bold';
+    font-style: italic;
+}
+
+a{
+    display: block;
+}
+[href]{
+    color: #000000;
+}
